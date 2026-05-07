@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+  background: black;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.signup-btn {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* MIDDLE */
+
+.middle {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.search-bar {
+  margin-top: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  margin: 15px 0;
+}
